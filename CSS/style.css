@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    background: rgb(255, 252, 252);
+    height: 300vh;
+    background: rgb(255, 252, 252);
+    background: linear-gradient(
+        0deg,
+        rgba(255, 252, 252, 1) 9%,
+        rgb(141, 212, 233) 63%,
+        rgba(129, 174, 215, 1) 92%
+    );
+}
+
+.headerForPage {
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+
+    font-size: 40px;
+    font-family: arial;
+    color: rgb(0, 27, 64);
+    border-bottom: 2px solid rgba(50, 96, 154, 0.8);
+}
+
+label {
+    font-weight: bold;
+    color: rgb(0, 27, 64);
+    font-family: arial;
+}
+
+input {
+    height: 30px;
+    margin: auto;
+    font-family: arial;
+    border: 0.1px solid rgb(132, 132, 132);
+    border-radius: 3px;
+}
+
+button {
+    margin: auto;
+    height: 38px;
+    padding: 8px 10px 10px 10px;
+    font-size: 18px;
+    border-style: none;
+    background-color: rgba(50, 96, 154, 0.8);
+    color: white;
+    border-radius: 5px;
+}
+
+#errorMessage {
+    color: rgb(111, 1, 1);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+}
+
+#firstIconToShow {
+    width: 150px;
+    position: relative;
+    left: 300px;
+    top: -220px;
+}
+
+#weatherWithHours {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    top: -100px;
+}
+
+#weatherWithHours p {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 2px solid rgba(50, 96, 154, 0.8);
+}
